@@ -1,6 +1,9 @@
-body{
-    display: flex;
-    flex-direction: column-reverse;
-    flex-basis: 150px;
+body {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
+body > button {
+  flex-basis: 150px;
+  flex-grow: 0.3;
+}
