@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Mincho';
+    src: url(/src/MSMINCHO.TTF);
+}
+
+.hello {
+    color: red;
+    background: url('./pusheen.jpg');
+    font-family: 'Mincho';
+    font-size: x-large;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
