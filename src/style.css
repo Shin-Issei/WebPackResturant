@@ -1,2 +1,6 @@
-
+body{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-basis: 150px;
+}
 
