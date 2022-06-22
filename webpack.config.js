@@ -15,6 +15,7 @@ module.exports = {
     new HtmlWebpackPlugin({
 
       title: 'Resturant Page',
+      
 
     }),
 

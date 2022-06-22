@@ -3,7 +3,22 @@ body {
   flex-direction: column-reverse;
 }
 
-body > button {
-  flex-basis: 150px;
-  flex-grow: 0.3;
+.tabs{
+  display:flex;
+  padding-bottom: 1rem;
+  gap: .3rem;
+}
+
+.tabs > button{
+  width:115px;
+  background-color: rgb(196, 196, 255);
+  border-style: none;
+  border-radius: 15%;
+  font-size: 1.6rem;
+}
+
+.main > div{
+  padding: 2rem;
+
+  background-color: blue;
 }
